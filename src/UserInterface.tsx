@@ -3,4 +3,12 @@ export interface User {
     name: string,
     username: string,
     email: string,
+    editState: boolean
+}
+
+export interface EditUser {
+    id: string,
+    name: string,
+    username: string,
+    email: string,
 }
